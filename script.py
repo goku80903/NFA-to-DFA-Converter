@@ -64,4 +64,4 @@ dfa["start"] = dfa_start
 dfa["final"] = dfa_final
 
 output_file = open('output.json', 'w+')
-json.dump(dfa, output_file, separators = (',\t' , ':'))     
+json.dump(dfa, output_file, indent=3 , separators = (',\t' , ':'))     
